@@ -16,8 +16,7 @@ public class WeatherParser {
         return page;
     }
 
-    //22.04 Суббота погода сегодня
-    //22.04
+
     private static Pattern pattern = Pattern.compile("\\d{2}\\.\\d{2}");
 
     private static String getDateFromString(String stringDate) throws Exception {
